@@ -1,0 +1,8 @@
+fraud_pattern,description,transaction_count,fraud_share_pct,avg_amount,median_amount,pct_night_0_5,pct_foreign,pct_card_not_present,avg_velocity_1h,avg_ip_risk,pct_no_2fa
+card_not_present,Online/CNP fraud — stolen card details used without physical card,5982,34.89,771.78,268.63,41.32,58.06,73.12,3.98,55.26,42.24
+account_takeover,Fraudster gains access to legitimate account via credential theft,3432,20.02,1203.13,436.78,40.88,59.64,74.24,3.96,55.89,41.72
+card_present_stolen,Physical card stolen and used at POS terminals,3120,18.2,556.84,200.27,40.83,57.24,73.17,3.95,54.99,40.61
+friendly_fraud,Legitimate cardholder disputes valid transaction (chargeback abuse),1726,10.07,352.61,120.8,38.99,55.97,74.68,3.93,54.91,42.47
+atm_fraud,ATM skimming or card trapping to clone card,1216,7.09,466.26,164.53,40.87,60.44,76.23,4.04,55.6,39.39
+money_laundering,Series of transactions to disguise illicit funds origin,1011,5.9,93.59,35.42,40.36,60.63,72.21,3.97,55.79,44.02
+identity_theft,New account opened using stolen personal information,656,3.83,1163.5,387.26,38.72,57.62,75.3,3.93,55.14,42.23
