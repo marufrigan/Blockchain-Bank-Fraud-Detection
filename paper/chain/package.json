@@ -1,0 +1,14 @@
+{
+  "name": "fraud-ledger-bench",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gas, latency and security benchmark of the original (V1) and hardened (V2) fraud-decision contracts",
+  "scripts": {
+    "bench": "node bench.js ../results/onchain_input_LightGBM_C2_ours.csv ../results/bench.json 7113 9790"
+  },
+  "dependencies": {
+    "ethers": "6.13.4",
+    "ganache": "7.9.2",
+    "solc": "0.8.19"
+  }
+}
