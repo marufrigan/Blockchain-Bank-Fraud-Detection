@@ -1,0 +1,228 @@
+{
+ "model": "LightGBM_C2_ours",
+ "n_cal": 600001,
+ "n_eval": 399999,
+ "eval_fraud": 6857,
+ "ours": {
+  "theta_r": 0.7113,
+  "theta_f": 0.979,
+  "bands": {
+   "APPROVE": {
+    "n": 388687,
+    "share": 0.9717199292998232,
+    "fraud": 699,
+    "precision": 0.001798362178307996
+   },
+   "REVIEW": {
+    "n": 6269,
+    "share": 0.015672539181347953,
+    "fraud": 1604,
+    "precision": 0.25586217897591323
+   },
+   "FLAG": {
+    "n": 5043,
+    "share": 0.012607531518828798,
+    "fraud": 4554,
+    "precision": 0.9030339083878643
+   },
+   "recall_flag": 0.6641388362257548,
+   "recall_review_or_flag": 0.8980603762578387,
+   "alert_rate": 0.02828007070017675
+  },
+  "contract_sim": {
+   "APPROVE": {
+    "n": 323430,
+    "fraud": 591,
+    "legit": 322839
+   },
+   "REVIEW": {
+    "n": 5153,
+    "fraud": 1314,
+    "legit": 3839
+   },
+   "FLAG": {
+    "n": 4203,
+    "fraud": 3795,
+    "legit": 408
+   },
+   "REJECT": {
+    "n": 67213,
+    "fraud": 1157,
+    "legit": 66056
+   },
+   "frozen_accounts": 4203,
+   "frozen_accounts_with_any_fraud": 3903,
+   "fraud_blocked": 4952,
+   "fraud_blocked_rate": 0.7221817121190025,
+   "legit_blocked": 66464,
+   "legit_blocked_rate": 0.16905850812174736
+  },
+  "contract_sim_hold24h": {
+   "APPROVE": {
+    "n": 388571,
+    "fraud": 699,
+    "legit": 387872
+   },
+   "REVIEW": {
+    "n": 6266,
+    "fraud": 1603,
+    "legit": 4663
+   },
+   "FLAG": {
+    "n": 5042,
+    "fraud": 4554,
+    "legit": 488
+   },
+   "REJECT": {
+    "n": 120,
+    "fraud": 1,
+    "legit": 119
+   },
+   "frozen_accounts": 4203,
+   "frozen_accounts_with_any_fraud": 3903,
+   "fraud_blocked": 4555,
+   "fraud_blocked_rate": 0.6642846725973458,
+   "legit_blocked": 607,
+   "legit_blocked_rate": 0.0015439713894725062
+  },
+  "contract_sim_hold72h": {
+   "APPROVE": {
+    "n": 388295,
+    "fraud": 699,
+    "legit": 387596
+   },
+   "REVIEW": {
+    "n": 6261,
+    "fraud": 1603,
+    "legit": 4658
+   },
+   "FLAG": {
+    "n": 5039,
+    "fraud": 4551,
+    "legit": 488
+   },
+   "REJECT": {
+    "n": 404,
+    "fraud": 4,
+    "legit": 400
+   },
+   "frozen_accounts": 4203,
+   "frozen_accounts_with_any_fraud": 3903,
+   "fraud_blocked": 4555,
+   "fraud_blocked_rate": 0.6642846725973458,
+   "legit_blocked": 888,
+   "legit_blocked_rate": 0.0022587258547802067
+  }
+ },
+ "repo": {
+  "theta_r": 0.6,
+  "theta_f": 0.85,
+  "bands": {
+   "APPROVE": {
+    "n": 386822,
+    "share": 0.9670574176435441,
+    "fraud": 562,
+    "precision": 0.001452864625073031
+   },
+   "REVIEW": {
+    "n": 4470,
+    "share": 0.011175027937569844,
+    "fraud": 446,
+    "precision": 0.09977628635346757
+   },
+   "FLAG": {
+    "n": 8707,
+    "share": 0.02176755441888605,
+    "fraud": 5849,
+    "precision": 0.6717583553462732
+   },
+   "recall_flag": 0.8529969374361965,
+   "recall_review_or_flag": 0.9180399591658159,
+   "alert_rate": 0.03294258235645589
+  },
+  "contract_sim": {
+   "APPROVE": {
+    "n": 287054,
+    "fraud": 411,
+    "legit": 286643
+   },
+   "REVIEW": {
+    "n": 3294,
+    "fraud": 326,
+    "legit": 2968
+   },
+   "FLAG": {
+    "n": 6413,
+    "fraud": 4349,
+    "legit": 2064
+   },
+   "REJECT": {
+    "n": 103238,
+    "fraud": 1771,
+    "legit": 101467
+   },
+   "frozen_accounts": 6413,
+   "frozen_accounts_with_any_fraud": 4834,
+   "fraud_blocked": 6120,
+   "fraud_blocked_rate": 0.8925185941373779,
+   "legit_blocked": 103531,
+   "legit_blocked_rate": 0.26334250728744324
+  },
+  "contract_sim_hold24h": {
+   "APPROVE": {
+    "n": 386588,
+    "fraud": 561,
+    "legit": 386027
+   },
+   "REVIEW": {
+    "n": 4468,
+    "fraud": 446,
+    "legit": 4022
+   },
+   "FLAG": {
+    "n": 8700,
+    "fraud": 5845,
+    "legit": 2855
+   },
+   "REJECT": {
+    "n": 243,
+    "fraud": 5,
+    "legit": 238
+   },
+   "frozen_accounts": 6413,
+   "frozen_accounts_with_any_fraud": 4834,
+   "fraud_blocked": 5850,
+   "fraud_blocked_rate": 0.8531427738077877,
+   "legit_blocked": 3093,
+   "legit_blocked_rate": 0.007867386338778355
+  },
+  "contract_sim_hold72h": {
+   "APPROVE": {
+    "n": 386148,
+    "fraud": 561,
+    "legit": 385587
+   },
+   "REVIEW": {
+    "n": 4458,
+    "fraud": 446,
+    "legit": 4012
+   },
+   "FLAG": {
+    "n": 8688,
+    "fraud": 5836,
+    "legit": 2852
+   },
+   "REJECT": {
+    "n": 705,
+    "fraud": 14,
+    "legit": 691
+   },
+   "frozen_accounts": 6413,
+   "frozen_accounts_with_any_fraud": 4834,
+   "fraud_blocked": 5850,
+   "fraud_blocked_rate": 0.8531427738077877,
+   "legit_blocked": 3543,
+   "legit_blocked_rate": 0.009012010927349405
+  }
+ }
+}
